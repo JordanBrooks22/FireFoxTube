@@ -19,16 +19,18 @@ function Header() {
             </div>
 
          <div className="header__input">
-         <input type="text" />
-            <SearchIcon />
+         <input placeholder="Search" type="text"/>
+            <SearchIcon className="header__inputButton"/>
             </div>
 
+            <div className="header__icons">
+            <VideoCallIcon className="header__icon"/>
+            <AppsIcon className="header__icon"/>
+            <NotificationsIcon className="header__icon"/>
+             </div>
 
-            <VideoCallIcon />
-            <AppsIcon />
-            <NotificationsIcon />
 
-
+           
 
        
          
