@@ -1,10 +1,91 @@
 import React from "react";
+import VideoCard from "./VideoCard";
+import './RecommendedVideos.css';
 
 function RecommendedVideos() {
     retun (
-        <div>
-            <h1>Videos here</h1>
+        <div className="recommendedVideos">
+            <h2>Recomended</h2>
+            <div className="recommendedVideos__videos">
+                <VideoCard 
+                title=""
+                views=""
+                timesstamp=""
+                channelImage=""
+                channel=""
+                image=""
+                />
+            
+            <VideoCard 
+                title=""
+                views=""
+                timesstamp=""
+                channelImage=""
+                channel=""
+                image=""
+                />
+                
+            <VideoCard 
+                title=""
+                views=""
+                timesstamp=""
+                channelImage=""
+                channel=""
+                image=""
+                />
+                
+            <VideoCard 
+                title=""
+                views=""
+                timesstamp=""
+                channelImage=""
+                channel=""
+                image=""
+                />
+                
+            <VideoCard 
+                title=""
+                views=""
+                timesstamp=""
+                channelImage=""
+                channel=""
+                image=""
+                />
+                
+            <VideoCard 
+                title=""
+                views=""
+                timesstamp=""
+                channelImage=""
+                channel=""
+                image=""
+                />
+                
+            <VideoCard 
+                title=""
+                views=""
+                timesstamp=""
+                channelImage=""
+                channel=""
+                image=""
+                />
+               
+             <VideoCard 
+                title=""
+                views=""
+                timesstamp=""
+                channelImage=""
+                channel=""
+                image=""
+                />
+
+
+
+
+            </div>
 
         </div>
-    )
+    );
 }
+
+export default RecommendedVideos

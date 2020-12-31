@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from './Header';
 import Sidebar from "./Sidebar";
 import RecommendedVideos from "./RecommendedVideos";
 import "./App.css";
@@ -10,11 +10,11 @@ function App() {
     <div className="app">
       <h1>Hello Clever Programmer, lets build a Youtube Clone</h1>
     
-    <Header  />
+    <Header />
    <div className="app__page">
 
-   <Sidebar  />
-   <RecommendedVideos  />
+   <Sidebar />
+   <RecommendedVideos />
 
 
    </div>

@@ -6,9 +6,9 @@ import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import HistoryIcon from "@material-ui/icons/History";
 import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
 import WatchLaterIcon from "@material-ui/icons/WatchLater";
-import ThumbUpAltOutlinedIcon from "@material-ui/icons/ThumbDownAlt";
-import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMore"
-import SidebarRow from "./SidebarRow"
+import ThumbUpAltOutlinedIcon from "@material-ui/icons/ThumbUpAltOutlined";
+import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMoreOutlined"
+import SidebarRow from "./SidebarRow";
 
 import './Sidebar.css';
 
