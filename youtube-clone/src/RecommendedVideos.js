@@ -1,5 +1,5 @@
 import React from "react";
-import VideoCard from "./VideoCard";
+import  "./VideoCard.css";
 import './RecommendedVideos.css';
 
 function RecommendedVideos() {
@@ -70,7 +70,7 @@ function RecommendedVideos() {
                 image=""
                 />
                
-             <VideoCard 
+                       `` <VideoCard 
                 title=""
                 views=""
                 timesstamp=""

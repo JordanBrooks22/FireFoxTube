@@ -1,5 +1,5 @@
 import React from "react";
-import Avater from "@material-ui/core/Avatar;"
+import Avatar from "@material-ui/core/Avatar";
 import "./VideoCard.css";
 
 function VideoCard({ image, title, channel, views, timestamp, })
@@ -9,7 +9,7 @@ return (
         <img src={image} alt=""/>
         <div className="videoCard__info">
             <Avatar
-            className="videoCard__Avatar"
+            className="videoCard__avatar"
             alt={channel}
             src={channelImage}
          /> 

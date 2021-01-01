@@ -3,21 +3,33 @@ import Header from './Header';
 import Sidebar from "./Sidebar";
 import RecommendedVideos from "./RecommendedVideos";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     // BEM class naming convention
     <div className="app">
-      <h1>Hello Clever Programmer, lets build a Youtube Clone</h1>
+     <Router>
+       <Header />
+       <Switch>
+         <Route path="/search/:searchTerm">
+           <Header />
+           <h1>Search page</h1>
+         </Route>
+         <Route path="/">
+           <Header />
+           <div className="app__page">
+           <Sidebar />
+           <RecommendedVideos />
+           </div>
+           </Route>
+
+       </Switch>
+
+
+     </Router>
     
-    <Header />
-   <div className="app__page">
 
-   <Sidebar />
-   <RecommendedVideos />
-
-
-   </div>
     
     
     </div>
